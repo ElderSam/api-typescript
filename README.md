@@ -1,5 +1,6 @@
 # 📝 JWT Authentication API with TypeScript e TypeORM
 
+Requisitos e Tasks: https://www.notion.so/Teste-Backend-CreativeCode-a87c6b3b1a594b2c8766704f9bd50abe
 
 ## Initialization 🚀
 
