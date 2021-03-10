@@ -19,6 +19,15 @@ export default class User {
     @Column()
     password: string;
 
+    @Column()
+    idade: string;
+
+    @Column()
+    peso: string;
+
+    @Column()
+    etnia: string;
+
     @BeforeInsert()
     hashPassword1() {
         this.password = User.hashPass(this.password);
@@ -43,7 +52,10 @@ export default class User {
             .select([
                 "id",
                 "name",
-                "email"
+                "email",
+                "idade",
+                "peso",
+                "etinia"
             ]) // without password
             .getRawMany();
     }
